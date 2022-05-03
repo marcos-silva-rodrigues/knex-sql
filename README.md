@@ -17,5 +17,11 @@ npx knex migrate:make 'nome da migração'
 2 Execute latest migration
 
 ```bash
-npx knex migrate:make 'nome da migração'
+npx knex migrate:latest
+```
+
+2 Execute rollback
+
+```bash
+npx knex migrate:rollback
 ```
